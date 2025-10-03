@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Open My Gift 🎁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- LANDING -->
+  <main id="landing" class="page center">
+    <div class="gift-wrap">
+      <div class="gift" id="gift">
+        <div class="lid"></div>
+        <div class="box"></div>
+        <div class="ribbon"></div>
+      </div>
+      <button id="openBtn" class="cta">Ấn vô ii</button>
+    </div>
+    <!-- <div class="hint">(Mở hộp nhé!)</div> -->
+  </main>
+
+  <!-- CELEBRATE -->
+  <section id="celebrate" class="page hidden">
+    <div id="slideshow" class="slideshow">
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+    <div class="overlay">
+      <div id="greetingLines" class="greeting-lines" aria-hidden="false"></div>
+      <div id="revealCard" class="reveal-card hidden" aria-hidden="true">
+        <h1 id="finalTitle">Chúc mừng sinh nhật!</h1>
+        <p id="finalMessage">(Nội dung bạn muốn gửi sẽ hiện ở đây.)</p>
+        <div style="display:flex;gap:8px;justify-content:center">
+          <button id="replayBtn" class="small">Xem lại</button>
+        </div>
+      </div>
+    </div>
+    <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+    <!-- <video id="birthdayVideo" class="birthday-video hidden" playsinline></video> -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
