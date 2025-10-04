@@ -33,7 +33,13 @@ const FADE_DURATION = 400;
 const VIDEO_SRC = 'video.mp4';
 const VIDEO_AUTOPLAY = true;
 const FINAL_TITLE = "Happy Birthday, Em Bé Bảo Hân! 🎂";
-const FINAL_MESSAGE = "Chúc em bé tuổi mới luôn xinh, luôn vui vẻ và mọi điều tốt đẹp sẽ đến. Dù có chuyện gì xảy ra thì vẫn luôn có anh ở sau ủng hộ em. Anh yêu em bé của anh nhiềuuu 💖";
+const FINAL_MESSAGE = [
+  "Tuổi mới đến, mong em luôn xinh đẹp, rạng rỡ như nắng mai",
+  "Mỗi ngày đều an yên, tràn đầy hạnh phúc và những điều diệu kỳ",
+  "Dẫu đời có bao thăng trầm, bão tố vây quanh",
+  "Anh vẫn mãi là nơi bình yên để em tựa vào.",
+  "Anh yêu em nhiều hơn cả những gì lời nói có thể chạm tới 💖"
+];
 
 // Performance / preload options
 const PRELOAD_COUNT = 4; // how many images to preload before starting (0 = all)
