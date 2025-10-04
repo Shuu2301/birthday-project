@@ -34,8 +34,9 @@ const VIDEO_SRC = 'video.mp4';
 const VIDEO_AUTOPLAY = true;
 const FINAL_TITLE = "Happy Birthday, Em Bé Bảo Hân! 🎂";
 const FINAL_MESSAGE = [
-  "Tuổi mới đến, mong em luôn xinh đẹp, rạng rỡ như nắng sớm và hạnh phúc như hoa nở. ",
-  "Dẫu bao thăng trầm, anh vẫn luôn là nơi bình yên để em tựa vào. Anh yêu em vô vàn 💖"
+  "Mừng tuổi mới của em – mong từng ngày của em đều rực rỡ, an yên và đầy điều kỳ diệu.",
+  " Dù có chuyện gì xảy ra, anh vẫn luôn ở phía sau, là điểm tựa, là người yêu thương em nhất. ",
+  "Anh yêu em hơn cả những gì anh có thể nói 💖"
 ];
 
 // Performance / preload options
