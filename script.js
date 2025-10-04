@@ -11,8 +11,18 @@ const LOW_RES_SLIDES = [
 ];
 
 const LINES = [
-  "Tuổi mới đến, mong em luôn xinh đẹp, rạng rỡ như nắng sớm và hạnh phúc như hoa nở. ",
-  "Dẫu bao thăng trầm, anh vẫn luôn là nơi bình yên để em tựa vào. Anh yêu em vô vàn 💖"
+  "Trước khi gặp em, cuộc sống của anh vẫn cứ thế trôi qua.",
+  "Ngày qua ngày, chẳng có gì đặc biệt.",
+  "Nhưng từ khi có em, mọi thứ dường như đổi khác.",
+  "Mỗi buổi sáng thức dậy đều có thêm một lý do để mỉm cười.",
+  "Những việc nhỏ nhặt nhất cũng trở nên ý nghĩa hơn.",
+  "Đi dạo trên con đường quen, bỗng thấy nó đẹp hơn vì có em.",
+  "Hay những quán ăn cũ, nay lại thành kỷ niệm mới của hai đứa.",
+  "Kể cả những ngày mệt mỏi, chỉ cần nghĩ đến em là lại thấy nhẹ nhõm.",
+  "Em làm cho những ngày bình thường của anh trở nên thật đáng nhớ.",
+  "Em khiến anh học cách trân trọng từng khoảnh khắc nhỏ bé.",
+  "Cảm ơn em đã bước vào cuộc sống vốn đơn điệu này của anh.",
+  "Và biến nó thành một hành trình đầy niềm vui và yêu thương 💖",
 ];
 
 // Timing & feature toggles
@@ -24,11 +34,8 @@ const VIDEO_SRC = 'video.mp4';
 const VIDEO_AUTOPLAY = true;
 const FINAL_TITLE = "Happy Birthday, Em Bé Bảo Hân! 🎂";
 const FINAL_MESSAGE = [
-  "Tuổi mới đến, mong em luôn xinh đẹp, rạng rỡ như nắng mai",
-  "Mỗi ngày đều an yên, tràn đầy hạnh phúc và những điều diệu kỳ",
-  "Dẫu đời có bao thăng trầm, bão tố vây quanh",
-  "Anh vẫn mãi là nơi bình yên để em tựa vào.",
-  "Anh yêu em nhiều hơn cả những gì lời nói có thể chạm tới 💖"
+  "Tuổi mới đến, mong em luôn xinh đẹp, rạng rỡ như nắng sớm và hạnh phúc như hoa nở. ",
+  "Dẫu bao thăng trầm, anh vẫn luôn là nơi bình yên để em tựa vào. Anh yêu em vô vàn 💖"
 ];
 
 // Performance / preload options
